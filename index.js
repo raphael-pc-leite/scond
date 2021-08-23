@@ -146,8 +146,8 @@ const sendDataToSheet = async (rquiredData) => {
 const insertDataIntoSheet = async (data) => {
     const sheets = google.sheets({ version: "v4", auth: googleClient });
     const sheetInsertOptions = {
-        spreadsheetId: "CÓDIGO DA PLANILHA",
-        range: "NOME_DA_ABA!A2:A",
+        spreadsheetId: "18TgLV7qa1wnfSC4ch3dazeGIBXG1wRb66-jYyTyZ_EU",
+        range: "RD Marketing!A2:A",
         valueInputOption: "USER_ENTERED",
         responseValueRenderOption: "FORMATTED_VALUE",
         insertDataOption: "INSERT_ROWS",
@@ -238,8 +238,8 @@ const sendBulkDataToSheet = async (res) => {
 
     const sheets = google.sheets({ version: "v4", auth: googleClient });
     const sheetInsertOptions = {
-        spreadsheetId: "CÓDIGO DA PLANILHA",
-        range: "NOME DA ABA!A2:T",
+        spreadsheetId: "18TgLV7qa1wnfSC4ch3dazeGIBXG1wRb66-jYyTyZ_EU",
+        range: "RD Marketing!A2:T",
         valueInputOption: "USER_ENTERED",
         responseValueRenderOption: "FORMATTED_VALUE",
         insertDataOption: "INSERT_ROWS",
